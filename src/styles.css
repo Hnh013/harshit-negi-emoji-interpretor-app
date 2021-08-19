@@ -1,0 +1,39 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: lightgrey;
+}
+
+p {
+  font-weight: bold;
+}
+
+input {
+  height: 40px;
+  margin: auto;
+  padding: 1rem;
+}
+
+h2 {
+  border: 2px solid black;
+  box-shadow: 5px 5px green;
+  padding: 0.5rem;
+}
+
+h3 {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.known {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: lightgreen;
+  border: 1px solid green;
+  box-shadow: 5px 5px yellow;
+  border-radius: 15px 15px;
+}
